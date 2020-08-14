@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #28475B;
+}
+
+.container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EFF6FF;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 6px 3px 28px -4px rgba(0,0,0,0.53);
+    background-color: #FFF;
+}
+
+/* Left side */
+
+.iintoo__left{
+    max-width: 55%;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iintoo__left-logo{
+    width: 150px;
+    height: 30px;
+    margin: 40px;
+}
+
+.iintoo__left-logo-img{
+    width: 100%;
+    height: 100%;
+}
+/* Left side End */
+
+/* Right side */
+.iintoo__right-wrapper{
+    margin: 30px 50px;
+}
+
+/* Title */
+.iintoo__right-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.iintoo__right-text{
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* Registration */
+.iintoo__right-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.iintoo__right-link{
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    transition: linear 200ms;
+}
+
+.iintoo__right-link:last-child{
+    margin-left: 50px;
+}
+
+.iintoo__right-f{
+    background-color: #255A9B;
+    position: relative;
+}
+
+.iintoo__right-f:hover{
+    background-color: #446E9F;
+}
+
+.iintoo__right-f::after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 30px;
+    background: url(/images/icon/facebook.svg) center center / 100% no-repeat;
+}
+
+.iintoo__right-in{
+    background-color: #0076B6;
+    position: relative;
+}
+
+.iintoo__right-in:hover{
+    background-color: #3b88b2;
+}
+
+.iintoo__right-in::after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 30px;
+    background: url(/images/icon/linkedin.svg) center center / 100% no-repeat;
+}
+
+.iintoo__right-OR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.iintoo__right-line{
+    width: 130px;
+}
+
+.iintoo__right-or{
+    padding: 0 7px;
+    font-weight: 500;
+}
+
+.iintoo__right-registration-card{
+    border: 1px solid #EFEFEF;
+    width: 100%;
+    transition: linear 200ms;
+}
+
+.iintoo__right-registration-card:hover{
+    border-left: 1px solid #3597FC;
+}
+
+.iintoo__right-registration-card:last-child{
+    margin-left: 50px;
+}
+
+.iintoo__right-registration-text{
+    font-size: 15px;
+    color: #95A8B6;
+    margin: 5px 0 10px 10px;
+}
+
+.iintoo__right-form{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 300;
+    width: 90%;
+    margin: 0 10px 5px 10px;
+    outline: none;
+}
+
+
+/* Type of Investor */
+.iintoo__right-subtitle{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.iintroo__right-investor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.iintroo__right-label{
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    margin-right: 20px;
+}
+
+.iintroo__right-label::before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: -20px;
+    top: 18%;
+    background: url(/images/icon/icon_i.png) center /100% no-repeat;
+}
+
+.iintroo__right-blocki-container{
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 25px 5px rgba(224,221,224,1);
+}
+
+
+/* 
+.iintroo__right-blocki{
+    position: relative;
+}
+
+.iintroo__right-blocki-container{
+    position: absolute;
+    padding: 10px;
+    top: -105px;
+    left: 5px;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 25px 5px rgba(224,221,224,1);
+}
+
+.iintroo__right-blocki-content{
+    margin: 0;
+} */
+
+
+
+
+/* Agree */
+.iintoo__right-agree-link{
+    color: #3597FC;
+}
+/* Button */
+.iintoo__right-button{
+    display: block;
+    background-color: #3698FB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 60px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: linear 200ms;
+    outline: none;
+    cursor: pointer;
+}
+
+.iintoo__right-button:hover{
+    background-color: #5babfc;
+}
+
+
+
+
+
+
+
+
